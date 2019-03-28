@@ -195,9 +195,12 @@ I checked it online on this website: https://www.w3schools.com/jquery/eff_fadeou
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
-```js
-	$(document).ready(function(){
-	    $("form").submit(function(event)```
+```
+js
+$(document).ready(function(){
+	$("form").submit(function(event){
+
+```
 
 I checked it online for what the ready method does on this website: https://learn.jquery.com/using-jquery-core/document-ready/. I learned that this line of code specifies the timing of running the jQuery code -- The code will only be executed when the html document is "ready", i.e. being fully loaded, which is a safe practice.
 
